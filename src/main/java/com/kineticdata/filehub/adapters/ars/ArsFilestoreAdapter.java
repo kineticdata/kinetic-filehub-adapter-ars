@@ -84,6 +84,7 @@ public class ArsFilestoreAdapter implements FilestoreAdapter {
             .setIsRequired(true),
         new ConfigurableProperty(Properties.PASSWORD)
             .setIsRequired(false)
+            .setIsSensitive(true)
     );
     
     /*----------------------------------------------------------------------------------------------
